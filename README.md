@@ -15,7 +15,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)  -->
+<div align="center">
+  <a href="https://hawkie.me"><img alt="Screenshot of app" src="spotifyImage.png" /></a>
+</div>
 
 A visual clone of Spotify web app to improve my skills in frontend development. 
 
