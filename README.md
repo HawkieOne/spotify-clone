@@ -16,7 +16,7 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://hawkie.me"><img alt="Screenshot of app" src="spotifyImage.png" /></a>
+  <a href="https://hawkie.me"><img alt="Screenshot of app" src="spotify.png" /></a>
 </div>
 
 A visual clone of Spotify web app to improve my skills in frontend development. 
