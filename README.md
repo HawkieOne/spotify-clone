@@ -51,11 +51,24 @@ Below is an example of how you can install and set up your app.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/HawkieOne/spotify-clone
+   git clone https://github.com/HawkieOne/instagram-clone
    ```
 2. Install NPM packages
    ```sh
    npm install
+   ```
+3. Create a new file called `.env.local`
+4. Go to https://developer.spotify.com/dashboard/applications and get a `CLIENT` and `CLIENT_SECRET` key for your app
+5. Place your keys in the `.env.local` file like below
+   ```sh
+   NEXT_PUBLIC_CLIENT_ID=YOUR_CLIENT_ID
+   NEXT_PUBLIC_CLIENT_SECRET_ID=YOUR_CLIENT_SECRET
+   NEXTAUTH_URL=http://localhost:3000
+   JWT_SECRET=some_super_secret_value
+   ```
+2. Run your application
+   ```sh
+   npm run dev
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
